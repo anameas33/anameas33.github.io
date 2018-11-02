@@ -1,3 +1,103 @@
+body{
+	font-family: arial;
+	color: white;
+	text-align: center;
+	background: rgb(200, 200, 200);
+}
+
 h1{
-	color: red;
+	color: white;
+	font-size: 33px;
+	font-family: helvetica neue utlra light;
+
+	background: linear-gradient(20deg, rgba(10,10,10,0.5), rgba(200,200,200,0.5)), url("images/4_mv.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+h5{
+	color: black;
+}
+.modal-body{
+	color: black;
+}
+p{
+	background-image: url("images/goutteVer.jpg"); 
+	background-position: center; 
+	background-size: cover;
+	text-align: center;
+	border: 3px solid blue;
+	padding: 20px;
+	margin: 10px;
+
+}
+
+iframe{
+	margin:10px;
+	position: center;
+}
+
+.lien {
+	text-decoration: none;
+	text-align: center;
+	margin: 20px;
+	color: blue;
+}
+
+.lien:hover{
+	background: white; 
+	border-radius: 3px;
+	padding: 7px;
+}
+
+ul{
+	text-align: left;
+	color: black;
+}
+
+img{
+	width: 500px;
+	border-radius: 3px;
+	box-shadow: 300px 300px 300px grey;
+}
+
+#vergas{
+	width: 500px;
+}
+
+.up{
+	width: 500px;
+	height: 300px;
+}
+
+.box-red{
+	background-color: red;
+}
+
+.box-blue{
+	background-color: blue;
+	margin-bottom: 5px;
+}
+
+.box-black{
+	margin: 20px;
+}
+
+.video{
+	border: 3px solid blue;
+}
+
+.icon-blue{
+	color: blue;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+.row{
+	margin-bottom: 10px;
+}
+
+i{
+	color: blue;
+}
 }
