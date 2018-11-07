@@ -1,103 +1,126 @@
 body{
-	font-family: arial;
-	color: white;
+	font-family: roboto;
+}
+
+.banner{
+	padding: 30px;
 	text-align: center;
-	background: rgb(200, 200, 200);
-}
-
-h1{
-	color: white;
-	font-size: 33px;
-	font-family: helvetica neue utlra light;
-
-	background: linear-gradient(20deg, rgba(10,10,10,0.5), rgba(200,200,200,0.5)), url("images/4_mv.jpg");
-	background-position: center;
-	background-size: cover;
-}
-
-h5{
-	color: black;
-}
-.modal-body{
-	color: black;
-}
-p{
-	background-image: url("images/goutteVer.jpg"); 
-	background-position: center; 
-	background-size: cover;
-	text-align: center;
-	border: 3px solid blue;
-	padding: 20px;
-	margin: 10px;
-
-}
-
-iframe{
-	margin:10px;
-	position: center;
-}
-
-.lien {
-	text-decoration: none;
-	text-align: center;
-	margin: 20px;
-	color: blue;
-}
-
-.lien:hover{
-	background: white; 
-	border-radius: 3px;
-	padding: 7px;
-}
-
-ul{
-	text-align: left;
-	color: black;
-}
-
-img{
-	width: 500px;
-	border-radius: 3px;
-	box-shadow: 300px 300px 300px grey;
-}
-
-#vergas{
-	width: 500px;
-}
-
-.up{
-	width: 500px;
-	height: 300px;
-}
-
-.box-red{
-	background-color: red;
-}
-
-.box-blue{
-	background-color: blue;
-	margin-bottom: 5px;
-}
-
-.box-black{
-	margin: 20px;
-}
-
-.video{
-	border: 3px solid blue;
-}
-
-.icon-blue{
-	color: blue;
 	font-size: 20px;
-	margin-left: 10px;
 }
 
-.row{
-	margin-bottom: 10px;
+#img4{
+	height: 700px;
+	width: 1450px;
 }
 
-i{
-	color: blue;
+.logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	top: 110px;
+	right: 650px;
+	height: 140px;
+	width: 140px;
+	box-shadow: 2px 2px 2px 2px white;
+	border-radius: 50%;
 }
+
+.logo1{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	top: 600px;
+	right: 650px;
+	height: 140px;
+	width: 140px;
+	box-shadow: 1px 1px white;
+	border-radius: 50%;
+
+}
+
+.logo1:hover{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.dropdown{
+	position: fixed;
+	left: 10px;
+	top: 20px;
+}
+
+.h1{
+	position: relative; 
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px 2px grey;
+	background-size: cover;
+}
+
+.brit{
+	height: 500px;
+	width: 50px;
+	display: flex;
+	align-content: center;
+	margin-bottom: 20px;
+}
+
+.box-card-1{
+	border: 1px solid black;
+}
+
+.box-card-2{
+	border: 1px solid black;
+}
+
+.jp{
+	height: 500px;
+	width: 50px;
+	display: flex;
+	align-content: center;
+	margin-bottom: 20px;
+}
+
+.mex{
+	height: 500px;
+	width: 50px;
+	display: flex;
+	align-content: center;
+	margin-bottom: 20px;
+}
+
+.box-card-3{
+	border: 1px solid black;
+}
+
+.box-card-5{
+	border: 1px solid black;
+}
+
+.ita{
+	height: 500px;
+	width: 50px;
+	display: flex;
+	align-content: center;
+	margin-bottom: 20px;
+}
+
+.fr{
+	border: 2px dashed black;
+	position: relative;
+	background: linear-gradient(20deg, rgba(10,10,10,0.5), rgba(200,200,200,0.5)), url("images/france.jpg")
+	height: 500px;
+	width: 1300px;
+	margin-bottom: 200px;
+}
+
+.frtitre{
+	position: absolute;
+	text-align: center;
+	color: white;
+	font-size: 90px;
+	text-shadow: 1px 1px 1px grey;
 }
