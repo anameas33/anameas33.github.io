@@ -1,5 +1,6 @@
 body{
   font-family: roboto;
+  margin: 0px;
 }
 
 p{
@@ -8,6 +9,10 @@ p{
 
 .header-banner{
   background-color: rgba(239, 239, 239, 0.9);
+}
+
+.navbar-brand{
+  margin-right: 450px;
 }
 
 #titre-header{
@@ -30,7 +35,6 @@ a:hover{
 }
 
 h2{
-  text-align: center;
   font-size: 50px;
   color: white;
   text-shadow: 2px 2px 2px grey;
@@ -41,25 +45,25 @@ h2:sm{
   font-size: 35px;
 }
 
-#dropdow{
+.dropdown{
   display: grid;
   align-content: right;
-}
-
-#img-banner{
-  margin-top: 30px;
-  filter: blur(2px);
 }
 
 .parent{
   position: relative; 
   font-size: 24px; 
   text-align: center; 
+  margin: 0px;
+  background-image: url(images/banner.jpg);
+  height: 670px;
+  width: 1400px;
+  background-size: cover;
 }
 
 .child{
   position: absolute;
-  top: 330px;
+  top: 250px;
 }
 
 .child-btn{ 
@@ -69,7 +73,7 @@ h2:sm{
 }
 
 .child-h2{ 
-  font-size: 70px; 
+  font-size: 60px; 
   text-align: center;
   padding-bottom: 50px;
 }
@@ -93,12 +97,12 @@ h3{
 #paulricard{
   background: linear-gradient(20deg, rgba(10,10,10,0.2), rgba(200,200,200,0.2)), url("images/paul-ricard.jpg");
   background-size: cover;
-  padding: 150px;
+  padding: 100px;
   border:2px solid red;
   margin-top: 30px;
   margin-bottom: 30px;
   filter: saturate(170%);
-
+  text-align: center;
 }
 
 #lienricard:hover{
@@ -162,6 +166,10 @@ h5{
   color: white;
 }
 
+button{
+  text-align: center;
+}
+
 .footer{
   background-color: rgb(250, 250, 250);
   padding-top: 20px;
@@ -182,11 +190,8 @@ h5{
   margin-left: 10px;
 }
 
-.fas{
-  margin-left: 215px;
+.up{
+  margin-left: -5px;
 }
 
-.fa-flag-checkered{
-  margin-left: 410px;
-}
 
