@@ -1,126 +1,26 @@
-body{
-	font-family: roboto;
+#titre-header{
+  color: red;
+  font-weight: bold;
 }
 
-.banner{
-	padding: 30px;
-	text-align: center;
-	font-size: 20px;
+h2{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 2px grey;
+  background: linear-gradient(20deg, rgba(10,10,10,0.5), rgba(200,200,200,0.5)), url("https://images.unsplash.com/photo-1514770198934-d632356140ce?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=52ffeb66e63d8dff928525f700842c86&auto=format&fit=crop&w=2978&q=80");  background-size: cover;
+  padding: 370px;
 }
 
-#img4{
-	height: 700px;
-	width: 1450px;
+#banner{
+  position: relative;
 }
 
-.logo{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	position: absolute;
-	top: 110px;
-	right: 650px;
-	height: 140px;
-	width: 140px;
-	box-shadow: 2px 2px 2px 2px white;
-	border-radius: 50%;
+.enfant{
+  position: absolute;
 }
 
-.logo1{
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	position: absolute;
-	top: 600px;
-	right: 650px;
-	height: 140px;
-	width: 140px;
-	box-shadow: 1px 1px white;
-	border-radius: 50%;
-
-}
-
-.logo1:hover{
-	background-color: black;
-	color: white;
-	text-align: center;
-}
-
-.dropdown{
-	position: fixed;
-	left: 10px;
-	top: 20px;
-}
-
-.h1{
-	position: relative; 
-	color: white;
-	text-align: center;
-	text-shadow: 2px 2px 2px grey;
-	background-size: cover;
-}
-
-.brit{
-	height: 500px;
-	width: 50px;
-	display: flex;
-	align-content: center;
-	margin-bottom: 20px;
-}
-
-.box-card-1{
-	border: 1px solid black;
-}
-
-.box-card-2{
-	border: 1px solid black;
-}
-
-.jp{
-	height: 500px;
-	width: 50px;
-	display: flex;
-	align-content: center;
-	margin-bottom: 20px;
-}
-
-.mex{
-	height: 500px;
-	width: 50px;
-	display: flex;
-	align-content: center;
-	margin-bottom: 20px;
-}
-
-.box-card-3{
-	border: 1px solid black;
-}
-
-.box-card-5{
-	border: 1px solid black;
-}
-
-.ita{
-	height: 500px;
-	width: 50px;
-	display: flex;
-	align-content: center;
-	margin-bottom: 20px;
-}
-
-.fr{
-	border: 2px dashed black;
-	position: relative;
-	background: linear-gradient(20deg, rgba(10,10,10,0.5), rgba(200,200,200,0.5)), url("images/france.jpg")
-	height: 500px;
-	width: 1300px;
-	margin-bottom: 200px;
-}
-
-.frtitre{
-	position: absolute;
-	text-align: center;
-	color: white;
-	font-size: 90px;
-	text-shadow: 1px 1px 1px grey;
+#dropdow{
+  display: grid;
+  align-content: right;
 }
