@@ -34,7 +34,7 @@ h2{
 h4{
 	color: black;
 	text-align: center;
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 }
 
 .carousel{
@@ -77,7 +77,10 @@ margin-top: 200px;
 }
 
 .btn-command{
-	margin-top: 50px;
-	margin-left: 670px;
+	margin-top: 20px;
 	margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }

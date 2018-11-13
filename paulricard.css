@@ -59,7 +59,9 @@ a:hover{
   margin-left: -5px;
 }
 
-iframe{
+.video{
+	width: 100%;
+	height: auto;
 	margin-bottom: 50px;
 	display: flex;
 	justify-content: center;
@@ -72,6 +74,16 @@ iframe{
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 	text-align: center;
+}
+
+
+.btn-command{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
