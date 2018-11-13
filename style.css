@@ -12,7 +12,7 @@ p{
 }
 
 .navbar-brand{
-  margin-right: 450px;
+  margin-right:0px;
 }
 
 #titre-header{
@@ -22,6 +22,9 @@ p{
 
 .nav-item{
   margin-right: 90px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 a{
@@ -56,7 +59,7 @@ h2:sm{
   text-align: center; 
   margin: 0px;
   background-image: url(images/banner.jpg);
-  height: 670px;
+  height: 750px;
   width: 1400px;
   background-size: cover;
 }
@@ -88,7 +91,7 @@ h2:sm{
 h3{
   color: black;
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding: 20px;
   text-align: center;
   font-size: 40px;
@@ -98,6 +101,7 @@ h3{
   background: linear-gradient(20deg, rgba(10,10,10,0.2), rgba(200,200,200,0.2)), url("images/paul-ricard.jpg");
   background-size: cover;
   padding: 100px;
+  padding-bottom: 50px;
   border:2px solid red;
   margin-top: 30px;
   margin-bottom: 30px;

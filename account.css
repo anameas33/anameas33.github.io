@@ -1,0 +1,80 @@
+.navbar-brand{
+  margin-right:0px;
+}
+
+#titre-header{
+  color: red;
+  font-weight: bold;
+}
+
+.nav-item{
+  margin-right: 90px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: red;
+  text-decoration: none;
+}
+
+.footer{
+  background-color: rgb(250, 250, 250);
+  padding-top: 20px;
+  display: flex; 
+  justify-content: space-around;
+  align-items: baseline;
+  
+}
+
+.icon{
+  font-size: 30px;
+  margin-right: 50px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.fab{
+  margin-left: 10px;
+}
+
+.up{
+  margin-left: -5px;
+}
+
+.about{
+	border:1px solid black;
+	margin-top: 100px;
+}
+
+.profil{
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+
+.signin{
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+
+h4{
+	text-align: center;
+}
+
+.btn-valider{
+	text-align: center;
+	margin-right: 0px;
+	margin-left: 265px;
+}
+
+.btn-2{
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 30px;
+}
