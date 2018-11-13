@@ -29,6 +29,10 @@ a:hover{
 	height: 500px;
 }
 
+.carousel-div{
+  margin-bottom: 300px;
+}
+
 .titre{
 	margin-top: 60px;
 	text-align: center;
