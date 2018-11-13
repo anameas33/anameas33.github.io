@@ -15,9 +15,11 @@ p{
   margin-right:0px;
 }
 
-#titre-header{
-  color: red;
-  font-weight: bold;
+.text-up{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .nav-item{
@@ -111,6 +113,10 @@ h3{
 
 #lienricard:hover{
 text-decoration: none;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
 }
 
 h5{
