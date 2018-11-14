@@ -70,7 +70,10 @@ h4{
 .btn-valider{
 	text-align: center;
 	margin-right: 0px;
-	margin-left: 265px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .btn-2{
