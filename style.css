@@ -16,11 +16,14 @@ p{
 }
 
 .text-up{
+  color: white;
+  text-shadow: 2px 2px 2px grey; 
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
   margin-bottom: 20px;
+  margin-left: 0px;
 }
 
 .nav-item{
@@ -40,17 +43,6 @@ a:hover{
   text-decoration: none;
 }
 
-h2{
-  font-size: 50px;
-  color: white;
-  text-shadow: 2px 2px 2px grey;
-}
-
-h2:sm{
-  text-align: right;
-  font-size: 35px;
-}
-
 .dropdown{
   display: grid;
   align-content: right;
@@ -61,8 +53,8 @@ h2:sm{
   font-size: 24px; 
   text-align: center; 
   margin: 0px;
-  background-image: url(images/banner.jpg);
-  height: 750px;
+  background: linear-gradient(20deg, rgba(10,10,10,0.2), rgba(250,250,250,0.2)), url("https://66.media.tumblr.com/8af391f37f75e0e3942a4f7cc0aa08be/tumblr_mkn7gv1ZqP1s7ilg9o1_1280.jpg");
+  height: 700px;
   width: 1400px;
   background-size: cover;
 }
@@ -75,11 +67,11 @@ h2:sm{
 .child-btn{ 
   font-size: 20px; 
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .child-h2{ 
-  font-size: 60px; 
+  font-size: 70px; 
   text-align: center;
   padding-bottom: 50px;
 }
@@ -100,32 +92,48 @@ h3{
   font-size: 40px;
 }
 
-#paulricard{
-  font-size: 50px;
-  background: linear-gradient(20deg, rgba(10,10,10,0.2), rgba(200,200,200,0.2)), url("images/paul-ricard.jpg");
+.ricard{
   background-size: cover;
-  padding: 100px;
-  padding-bottom: 50px;
   border:2px solid red;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
+  margin-left: 0px;
+  padding: 0px;
   filter: saturate(170%);
-  text-align: center;
-  width: 100%;
 }
 
-#lienricard{
+.card-img{
+  width: 100%;
+  height: 300px;
+}
+
+.card-img-overlay{
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  vertical-align: middle;
+}
+
+#paulricard{
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px grey;
+  display: grid;
+  justify-content: center;
+  align-items: center;
   align-content: center;
+  padding-top: 20px;
+}
+
+#paulricard:sm{
+  text-align: center;
+  font-size: 35px;
+  padding-top: 0px;
 }
 
 #lienricard:hover{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
   text-decoration: none;
 }
 
@@ -134,35 +142,10 @@ h5{
   font-weight: bold;
 }
 
-.ham44{
-  height: 350px;
+.card-img-top{
   filter: grayscale(100%);
 }
-.ham44:hover{
-  filter: none;
-}
-
-.vettel{
-  height: 350px;
-  filter: grayscale(100%);
-}
-.vettel:hover{
-  filter: none;
-}
-
-.bianchi{
-  height: 350px;
-  filter: grayscale(100%);
-}
-.bianchi:hover{
-  filter: none;
-}
-
-.ver33{
-  height: 350px;
-  filter: grayscale(100%);
-}
-.ver33:hover{
+.card-img-top:hover{
   filter: none;
 }
 
