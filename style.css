@@ -20,6 +20,7 @@ p{
   justify-content: center;
   align-items: center;
   align-content: center;
+  margin-bottom: 20px;
 }
 
 .nav-item{
@@ -100,6 +101,7 @@ h3{
 }
 
 #paulricard{
+  font-size: 50px;
   background: linear-gradient(20deg, rgba(10,10,10,0.2), rgba(200,200,200,0.2)), url("images/paul-ricard.jpg");
   background-size: cover;
   padding: 100px;
@@ -169,12 +171,12 @@ h5{
 }
 
 .nletter{
-  border: 1px solid black;
   padding-left: 10px;
   padding-bottom: 15px;
   padding-top: 15px;
   text-align: center;
   margin-bottom: 100px;
+  margin-top: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -211,7 +213,7 @@ button{
 }
 
 .up{
-  margin-left: -5px;
+  margin-left: -10px;
 }
 
 

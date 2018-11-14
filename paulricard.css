@@ -50,7 +50,7 @@ a:hover{
 
 .icon{
   font-size: 30px;
-  margin-right: 50px;
+  margin-right: 30px;
   margin-bottom: 15px;
   margin-top: 5px;
 }
@@ -59,10 +59,13 @@ a:hover{
   margin-left: 10px;
 }
 
-.up{
-  margin-left: -5px;
+.fa-instagram{
+  margin-left: 50px;
 }
 
+.up{
+  margin-left: -10px;
+}
 .video{
 	width: 100%;
 	height: auto;
