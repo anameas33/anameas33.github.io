@@ -71,7 +71,7 @@ a:hover{
 }
 
 .child-h2{ 
-  font-size: 70px; 
+  font-size: 50px; 
   text-align: center;
   padding-bottom: 50px;
 }
@@ -93,26 +93,24 @@ h3{
 }
 
 .ricard{
+  background: linear-gradient(20deg, rgba(10,10,10,0.2), rgba(250,250,250,0.2)), url("images/paul-ricard.jpg");
   background-size: cover;
   border:2px solid red;
   margin-top: 30px;
   margin-bottom: 100px;
   margin-left: 0px;
-  padding: 0px;
+  padding: 40px;
   filter: saturate(170%);
-}
-
-.card-img{
-  width: 100%;
-  height: 300px;
-}
-
-.card-img-overlay{
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   vertical-align: middle;
+}
+
+.card-img{
+  width: 100%;
+  height: 300px;
 }
 
 #paulricard{
