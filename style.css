@@ -1,5 +1,4 @@
 body{
-  font-family: roboto;
   margin: 0px;
 }
 
@@ -13,6 +12,14 @@ p{
 
 .navbar-brand{
   margin-right:0px;
+  height: 50px;
+  width: auto;
+}
+
+.logo{
+  margin-top: 0px;
+  height: 40px;
+  width: auto;
 }
 
 .text-up{
